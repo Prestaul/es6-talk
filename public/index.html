@@ -1,0 +1,66 @@
+<!doctype html>
+<title>ES6</title>
+<style>
+	#notes {
+		position: absolute;
+		top: 0;
+		bottom: 20px;
+		left: 0;
+		right: 60%;
+		padding: 20px;
+		overflow-y: scroll;
+		font-size: 20px;
+	}
+
+	#buttons {
+		position: absolute;
+		height: 20px;
+		bottom: 0;
+		left: 0;
+		right: 60%;
+		text-align: center;
+	}
+
+	#console {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 40%;
+		right: 0;
+	}
+
+	#editor {
+		position: absolute;
+		top: 0;
+		bottom: 200px;
+		left: 0;
+		right: 0;
+	}
+
+	#output {
+		position: absolute;
+		height: 200px;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+
+	#sandbox {
+		visibility: hidden;
+	}
+</style>
+
+<div id="notes"></div>
+<div id="buttons">
+	<a href="javascript:// prev slide" id="prev">prev</a>
+	<a href="javascript:// next slide" id="next">next</a>
+</div>
+<div id="console">
+	<div id="editor"></div>
+	<div id="output"></div>
+</div>
+
+<script src="babel.min.js" charset="utf-8"></script>
+<script src="inspect.js"></script>
+<script src="https://cdn.jsdelivr.net/g/ace@1.2.3(min/ace.js+min/mode-javascript.js+min/theme-monokai.js)"></script>
+<script src="main.js"></script>

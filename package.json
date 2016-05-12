@@ -1,0 +1,19 @@
+{
+  "name": "es6-talk",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-plugin-add-module-exports": "^0.1.4",
+    "babel-preset-node5": "^11.0.2",
+    "express": "^4.13.4",
+    "marked": "^0.3.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Matt Dunlap <mpdunlap@gmail.com>",
+  "license": "ISC"
+}
